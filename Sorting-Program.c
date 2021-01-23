@@ -44,7 +44,7 @@ char **read_words(const char *input_filename, int *nPtr){
 
 int compare_str(const char *str1,const char *str2){
 
-	/*this is a helper function that you can implement and use to facilitate your development*/
+	/*this is a helper function 
    	/*compare_str alphabetically compares two strings.
     	If str2 is alphabetically smaller than str1 (comes before str1),
     	the function returns a 1, else if str1 is smaller than str2, the
@@ -84,7 +84,7 @@ void sort_words(char **words, int size){
 
 	/*INSERTION SORT*/
    
-	/*write your implementation here*/
+
 
 	/* The way insertion sort works is that it essentialy divides up the array into a sorted portion and a unsorted portion starting at the index 1 (so for the very first one, the "sorted" portion only has
 	 * one element). It then compares the value we are on to the previous value, if the previous value is bigger, then it moves the previous value into the current values position (the one we are looking at now)
@@ -117,7 +117,7 @@ void sort_words(char **words, int size){
 
 void swap(char **str1, char **str2){
  
-	/*this is a helper function that you can implement and use to facilitate your development*/
+	/*this is a helper function that swaps two words by swapping addresses*/
 
 	char *temp=*str1; //set a temporary pointer that will point to the first string (by doing *str1, we give it the address of the first string so it will point to it)-
 
@@ -131,7 +131,7 @@ void sort2_words(char **words, int size){
 
 	/*BUBBLE SORT*/
 
-	/*write your implementation here*/
+
 
 	/* The way bubble sort works is by comparing each element one by one. It compares the current element with the adjacent one (the one beside it). If it finds that the current element is larger, it will swap
 	 * the two elements and then continue to compare, moving on to the element we just compared with and comparing that with the one adjacent to that one, and so on for all elements. After the first iteration
