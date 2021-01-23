@@ -6,4 +6,4 @@ char **read_words(constchar *input_filename, int *nPtr); - input_filename is a s
 
 void sort_words(char **words, int size); - This function sorts the words in the array of strings in alphabetical order using the sorting algorithm known as “insertion sort”. 
 
-void sort_words(char **words, int size); - This function sorts the words in the array of strings in alphabetical order using the sorting algorithm known as “bubble sort”
+void sort2_words(char **words, int size); - This function sorts the words in the array of strings in alphabetical order using the sorting algorithm known as “bubble sort”
